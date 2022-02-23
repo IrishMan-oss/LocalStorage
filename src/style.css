@@ -1,0 +1,42 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+}
+.txtarea{
+    overflow: auto;
+    font-size: 15px;
+    width: 250px;
+    height: 150px;
+    background: #F4F4F4;
+    border: 1px solid rgb(53, 49, 49); 
+    resize: none; 
+}
+.drop{
+    font-size: 15px;
+    width: 250px;
+    height: 150px;
+    resize: none;
+}
+
+#certificates-wrap {
+    padding: 0;
+    list-style: none;
+}
+#certificates-wrap button {
+    display: block;
+    width: 180px;
+    border: solid 1px #ccc;
+    padding: 7px 0;
+    cursor: pointer;
+}
+.activeUl {
+    background-color: rgb(151, 14, 14);
+}
+.btn {
+    width: 100px;
+    outline: none; 
+}
